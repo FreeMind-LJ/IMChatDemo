@@ -1,0 +1,24 @@
+//
+//  IMChatDemo.pch
+//  IMChatDemo
+//
+//  Created by lujiangbin on 15/10/16.
+//  Copyright © 2015年 lujiangbin. All rights reserved.
+//
+
+#ifndef IMChatDemo_pch
+#define IMChatDemo_pch
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "ACMacros.h"
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* IMChatDemo_pch */
