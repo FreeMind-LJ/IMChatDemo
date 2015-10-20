@@ -220,6 +220,7 @@
 		93B4E59F1BD0D1B5008A3A95 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B4E5931BD0D1B5008A3A95 /* libopencore-amrnb.a */; settings = {ASSET_TAGS = (); }; };
 		93B4E5A01BD0D1B5008A3A95 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B4E5941BD0D1B5008A3A95 /* libopencore-amrwb.a */; settings = {ASSET_TAGS = (); }; };
 		93B4E5A11BD0D1B5008A3A95 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93B4E59C1BD0D1B5008A3A95 /* VoiceConverter.mm */; settings = {ASSET_TAGS = (); }; };
+		93CC439D1BD5ED91005D2413 /* XMPPStreamManagementPersistentStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC439C1BD5ED91005D2413 /* XMPPStreamManagementPersistentStorage.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -662,6 +663,8 @@
 		93B4E59A1BD0D1B5008A3A95 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
 		93B4E59B1BD0D1B5008A3A95 /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
 		93B4E59C1BD0D1B5008A3A95 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+		93CC439B1BD5ED91005D2413 /* XMPPStreamManagementPersistentStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPStreamManagementPersistentStorage.h; sourceTree = "<group>"; };
+		93CC439C1BD5ED91005D2413 /* XMPPStreamManagementPersistentStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPStreamManagementPersistentStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1408,6 +1411,7 @@
 		93AD7F7D1BCD27C800184E78 /* XEP-0198 */ = {
 			isa = PBXGroup;
 			children = (
+				93CC439A1BD5ED91005D2413 /* Persistent Storage */,
 				93AD7F7E1BCD27C800184E78 /* Memory Storage */,
 				93AD7F811BCD27C800184E78 /* Private */,
 				93AD7F841BCD27C800184E78 /* XMPPStreamManagement.h */,
@@ -1866,6 +1870,15 @@
 			path = "opencore-amrwb";
 			sourceTree = "<group>";
 		};
+		93CC439A1BD5ED91005D2413 /* Persistent Storage */ = {
+			isa = PBXGroup;
+			children = (
+				93CC439B1BD5ED91005D2413 /* XMPPStreamManagementPersistentStorage.h */,
+				93CC439C1BD5ED91005D2413 /* XMPPStreamManagementPersistentStorage.m */,
+			);
+			path = "Persistent Storage";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2151,6 +2164,7 @@
 				93AD7FFB1BCD27C800184E78 /* XMPPParser.m in Sources */,
 				93AD80201BCD27C800184E78 /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
 				93AD80611BCD27C800184E78 /* NSXMLElement+XEP_0352.m in Sources */,
+				93CC439D1BD5ED91005D2413 /* XMPPStreamManagementPersistentStorage.m in Sources */,
 				93AD80171BCD27C800184E78 /* XMPPRoomCoreDataStorage.m in Sources */,
 				93B4E5491BD09C6F008A3A95 /* AFSecurityPolicy.m in Sources */,
 				93B4E59D1BD0D1B5008A3A95 /* amrFileCodec.mm in Sources */,

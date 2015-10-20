@@ -30,15 +30,15 @@
 }
 - (IBAction)logIn:(id)sender
 {
-//    NSString *username = _userName.text;
-//    NSString *password = _passWord.text;//12345
-//    
-//    if (!username || !password) {
-//        return;
-//    }
-//    [[JBXMPPManager sharedInstance] loginWithName:username andPassword:password];
+    NSString *username = _userName.text;
+    NSString *password = _passWord.text;//12345
     
-    [[JBXMPPManager sharedInstance] loginWithName:@"user1" andPassword:@"12345"];
+    if (!username || !password) {
+        return;
+    }
+    [[JBXMPPManager sharedInstance] loginWithName:username andPassword:password];
+
+    //[[JBXMPPManager sharedInstance] loginWithName:@"user1" andPassword:@"12345"];
     
 
 }

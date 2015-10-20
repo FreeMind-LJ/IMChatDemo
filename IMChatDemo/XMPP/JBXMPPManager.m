@@ -153,7 +153,6 @@ static JBXMPPManager *_instance;
     NSLog(@"%s",__func__);
     
     [[NSNotificationCenter defaultCenter] postNotificationName:@"DIDLogIn" object:nil];
-    [_xmppStreamManagement enableStreamManagementWithResumption:YES maxTimeout:0];
     
     [self goOnline];
     
