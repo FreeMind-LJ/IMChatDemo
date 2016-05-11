@@ -2359,7 +2359,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiangbin Lu (65R5W5ECZV)";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = /Users/lujiangbin/Documents/IMChatDemo/IMChatDemo/IMChatDemo.pch;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/IMChatDemo/IMChatDemo.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = IMChatDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -2383,7 +2383,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiangbin Lu (HL9P92W38M)";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = /Users/lujiangbin/Documents/IMChatDemo/IMChatDemo/IMChatDemo.pch;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/IMChatDemo/IMChatDemo.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = IMChatDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
